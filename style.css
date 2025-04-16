@@ -1,0 +1,157 @@
+body{
+    background-image: url(images/sunset.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+
+}
+h1{
+    text-align: left;
+
+}
+#header{
+    color:white;
+    border-bottom-style:solid;
+    border-width:5px;
+    border-color: black;
+}
+#para1{
+    font-family:cursive;
+    color:black
+}
+h3{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+#header2{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
+    text-align: center;
+}
+#a{
+   text-align: center;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration:underline
+}
+#i1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#paraM{
+    font-family: cursive;
+    color:black;
+}
+#formtext{
+    font-family: cursive;
+    color: black;
+}
+#divM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button1{
+    font-size: 25px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width:5px;
+    color:aqua;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    filter:drop-shadow(0 0 10px aqua);
+  
+}
+#vid1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:inset;
+    border-width: 10px;
+    border-color:black;
+}
+
+#divfname{
+    font-family:cursive;
+    color:rgb(0, 255, 200);
+}
+#fname{
+    border: solid;
+    border-color:rgb(0,255,200);
+    border-width: 3.5px;
+    border-radius: 3px;
+}
+#divlname{
+    font-family:cursive;
+    color:rgb(0,255,200);
+}
+#lname{
+    border: solid;
+    border-color:rgb(0,255,200);
+    border-width: 3.5px;
+    border-radius: 3px;
+}
+#title{
+    border: solid;
+    border-color:rgb(0,255,200);
+    border-width: 3.5px;
+    border-radius: 3px;
+}
+#divtitle{
+    font-family:cursive;
+    color:rgb(0,255,200);
+}
+#submit{
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width:5px;
+    color:greenyellow;
+    background-color: black;
+    
+}
+#reset{
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width:5px;
+    color:orangered;
+    background-color: black;   
+}
+input::placeholder{
+    color:darkgray
+}
+#formM{
+    border-style: inset;
+    width: 200px;
+    text-align: center;
+    border-width: 8px;
+    border-radius: 10px;
+    background-color: blue;
+    border-color:black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes swipe{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#heart{
+    position: fixed;
+    margin-top: 20px;
+    animation: swipe 5s linear infinite;
+    float:left;
+    margin-left: 90%;
+}
